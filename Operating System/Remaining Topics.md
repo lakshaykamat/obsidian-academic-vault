@@ -1,0 +1,8 @@
+- [x] Free Space management
+- [ ] Disk Scheduling Algo's
+- [ ] Demand paging 
+- [ ] page replacement
+- [x] thrashing
+- [x] Banker's Algo
+- [ ] CPU scheduling
+- [ ] Early Systems
