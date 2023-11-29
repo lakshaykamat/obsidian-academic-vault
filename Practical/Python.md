@@ -8,6 +8,13 @@ tags:
 1. [[Academics/Semester 3/Practical/Python#Fibonacci series in python|Fibonacci]]
 2. [[Academics/Semester 3/Practical/Python#Factorial in python|Factorial]]
 3. [[Academics/Semester 3/Practical/Python#Largest Among Three|Largest among three]]
+4. [[Academics/Semester 3/Practical/Python#Sum List|Sun of List]]
+5. [[Academics/Semester 3/Practical/Python#Prime Number|Prime Numbers]]
+6. [[Academics/Semester 3/Practical/Python#Common element in list|Common elements in list]]
+7. [[Academics/Semester 3/Practical/Python#Pattern 1|Pattern 1]]
+8. [[Academics/Semester 3/Practical/Python#Pattern 2|Pattern 2]]
+9. [[Academics/Semester 3/Practical/Python#Reverse Words|Reverse Words]]
+10. [[Academics/Semester 3/Practical/Python#Extract unique words from file|Extract unique words from file]]
 ### Fibonacci series in python
 #### Using iteration
 ```python
@@ -123,6 +130,22 @@ for i in range(1, rows + 1):
     print()
 
 ```
+### Pattern 2
+```python
+'''
+1 1 1 1 1
+1 1  1 
+1 1
+1
+'''
+rows = 4 
+
+for i in range(rows, 0, -1):
+    for j in range(1, i + 1):
+        print("1", end=" ")
+    print()
+
+```
 ### Reverse Words 
 ```python
 def reverse_words(self, s):
@@ -130,4 +153,27 @@ def reverse_words(self, s):
     reversed_words = words[::-1]
     reversed_string = ' '.join(reversed_words)
     return reversed_string
+```
+### Extract unique words from file
+```python
+def extract_unique_words(file_name):
+    unique_words = set()
+
+
+    with open(file_name, 'r') as file:
+        for line in file:
+            words = line.split()
+            for word in words:
+                word = word.strip('.,?!-\'"').lower()
+                unique_words.add(word)
+
+    return sorted(unique_words)
+
+file_name = 'input.txt'
+
+unique_word_list = extract_unique_words(file_name)
+print("Unique words in alphabetical order:")
+for word in unique_word_list:
+    print(word)
+
 ```
