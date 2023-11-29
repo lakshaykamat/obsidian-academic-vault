@@ -13,4 +13,4 @@ tags:
 6. [[Inheritance]]
 7. [[Polymorphism]]
 
-![[Python#UNIT-III]]
+![[Academics/Semester 3/Python/Python#UNIT-III]]

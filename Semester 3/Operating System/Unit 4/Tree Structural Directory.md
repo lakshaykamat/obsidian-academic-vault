@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Tree Structural Directory
 - Allow user to create their own sub directories and organise their files accordingly.
 - commonly used in personal computers
 - user can't modify the root directory

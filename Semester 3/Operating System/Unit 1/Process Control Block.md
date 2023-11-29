@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Process Control Block
 Manage and store information about each individual process in a computer system. 
 
 It contains essential details necessary for the operating system to manage the processes effectively throughout their life cycle.

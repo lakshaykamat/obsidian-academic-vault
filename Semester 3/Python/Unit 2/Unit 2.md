@@ -13,4 +13,4 @@ tags:
 7. [[Dictionary in Python]]
 8. [[Difference Between Sets, Tuples, Lists and Dictinaries]]
 
-![[Python#UNIT-11]]
+![[Academics/Semester 3/Python/Python#UNIT-11]]

@@ -1,3 +1,10 @@
+---
+tags:
+- "#college"
+- "#os"
+---
+
+# Operating System
 ![[Academics/Semester 3/Operating System/Unit 1/Unit 1|Unit 1]]
 ![[Academics/Semester 3/Operating System/Unit 2/Unit 2]]
 ![[Academics/Semester 3/Operating System/Unit 3/Unit 3]]

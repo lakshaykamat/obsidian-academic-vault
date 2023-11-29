@@ -1,3 +1,9 @@
+---
+tags:
+- "#college"
+- "#os"
+---
+
 # Unit 2
 1. [[CPU Scheduling]]
 2. [[Deadlocks]]
@@ -9,4 +15,4 @@
 		4. [[Deadlocks#4. Ostrich Method]]
 	 3. [[Banker Algorithm]]
 
-![[Operating System#UNIT-II]]
+![[Academics/Semester 3/Operating System/Operating System#UNIT-II]]

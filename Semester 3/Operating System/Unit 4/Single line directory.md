@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Single line directory
 1. All the files are contained in same directory
 2. Each file must have unique name
 ### Advantages

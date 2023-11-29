@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Introduction to OS
 - Acts as a intermediary between computer hardware and user applications.
 - It manages and facilitates various essential functions like networking and security
 - Enable user to interact with the computer system

@@ -1,3 +1,10 @@
+---
+tags:
+- "#college"
+- "#os"
+---
+
+# Segmentation
 Segmentation is a memory management technique used in operating systems to divide the computer's physical memory into different segments or sections based on logical groupings of data. Unlike paging, which divides memory into fixed-size pages, segmentation allows for variable-sized memory segments, each with its own specific purpose.
 
 In segmentation, each segment represents a different part of a program or data, such as code, data, stack, and heap. The key aspects of segmentation include:

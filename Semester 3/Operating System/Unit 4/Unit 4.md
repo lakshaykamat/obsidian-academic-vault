@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+
 # Unit 4
 1. [[File System]]
 2. [[File Directory]]
@@ -17,4 +23,4 @@
 7. [[Free Space Management]]
 	-  [[Free Space Management#Bit map vs Bit Vector]]
 
-![[Operating System#UNIT-IV]]
+![[Academics/Semester 3/Operating System/Operating System#UNIT-IV]]

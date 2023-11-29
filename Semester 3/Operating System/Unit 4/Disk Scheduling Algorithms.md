@@ -1,5 +1,12 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+
+# Disk Scheduling Algorithms
 <iframe src="https://drive.google.com/file/d/1poVoOqqxr9Tk1xRP8qmXHnx56XZTuVqy/preview" width="740" height="580" allow="autoplay"></iframe>
-# First Come First Serve
+## First Come First Serve
 - Simple and straigtforwad
 - Request served in the order which they arrive
 - Process the I/O requests one by one from head of the queue to the end without any consideration for the location of the data on the disk

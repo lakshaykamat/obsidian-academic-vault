@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Static loading and Dynamic loading
 Static loading and dynamic loading are two different approaches to loading programs and their associated libraries in an operating system. Here's a brief explanation of each:
 
 ## Static Loading

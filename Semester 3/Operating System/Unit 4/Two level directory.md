@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Two level directory
 - Creating a directory for each user
 - Each user has their own UFD (user file directory)
 ### Advantages

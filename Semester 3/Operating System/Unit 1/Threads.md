@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Threads
 - **Smallest Execution Unit:** Threads operate independently within a process, executing instructions.
 - **Reside in Processes:** Multiple threads share the same memory and resources within a process.
 - **Cooperative Work:** Threads collaborate within a process, enhancing task efficiency.

@@ -1,4 +1,10 @@
+---
+tags:
+- "#os"
+- "#college"
+---
 
+# Difference between contiguous and non-contiguous memory allocation
 | Aspect | Contiguous Memory Allocation | Non-Contiguous Memory Allocation |
 | --- | --- | --- |
 | Definition | Allocates consecutive blocks of memory to a process. | Allocates separate, non-consecutive blocks of memory to a process. |

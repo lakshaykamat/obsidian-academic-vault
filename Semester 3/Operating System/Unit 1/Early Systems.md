@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Early Systems
 -   Significantly different from the advanced and multi functional operating systems we use today
 - They were primitive, with limited capabilities and functionalities.
 

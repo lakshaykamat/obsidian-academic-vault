@@ -10,4 +10,4 @@
 	1. [[Loops#Loop Control Statements]]
 	2. [[Difference Between Pass continue and Break]]
 
-![[Python#UNIT-I]]
+![[Academics/Semester 3/Python/Python#UNIT-I]]

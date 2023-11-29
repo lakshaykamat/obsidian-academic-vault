@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Thrashing
 - scenario where excessive paging or swapping of memory occurs, causing a severe decline in system performance.
 - occurs when system is overly busy, and the demand for memory exceeds the physical RAM capacity.
 ![](https://media.geeksforgeeks.org/wp-content/uploads/2-103.png)

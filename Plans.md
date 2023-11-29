@@ -2,6 +2,7 @@
 tags:
   - "#college"
   - "#exam"
+  - "#plans"
 ---
 # Final Sem Datesheet
 | Day | Date      | Gap | Code        | Subject                         |
@@ -34,36 +35,6 @@ Based on my analysis, we have continuous exams on _December 7th, 8th, and 9th_. 
 
 ### [[27-11-2023|27 November]]
 I have a lot to do tonight and tomorrow. On the [[29-11-2023|29th of November]], I have to go to college because they are announcing that all students have to pay their fees, and practicals will be conducted. So, the 29th of November will be busy at college. Tomorrow night, on the [[28-11-2023|28th of November]], I will be busy with a wedding.
-
-During the day on the 28th of November, I will focus on Python, data warehousing, and mining.
-### Matrix
-- [x] Revise Full matrix
-	- [x] Symmetric and Skew symmetric
-	- [x] Orthogonal matrix
-	- [x] Unitary matrix
-	- [x] Rank of matrix
-	- [x] Hermition matrix
-	- [x] Characteristics equation
-	- [x] Eigen values and vectors
-	- [x] Cayley hamiltion theorem
-
-### Differentiation
-- [x] Leibnitz theorem
-- [x] Euler’s Theorem
-- [x] maxima and minima
-- [x] Partial differentiation
-
-### Integrals
-- [x] Bernoulli's formula
-- [x] Double triple integral
-- [x] Reduction formula
-
-## Extra
-- [ ] Unit 3 of data warehouse and mining
-- [ ] Unit 4 of Data warehouse and mining
-
-
-# nth derivate is improtant
 
 ## Tips for Studying late night
 1. Maintain a schedule

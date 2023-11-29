@@ -1,3 +1,9 @@
+---
+tags:
+- "#college"
+- "#os"
+---
+# Inter process communication
 - **IPC Purpose:** Facilitates data exchange and synchronization among concurrent processes.
 - **Message Passing:** Processes share data through messages using queues or direct communication.
 - **Shared Memory:** Allows processes to share a common memory segment for swift data exchange.

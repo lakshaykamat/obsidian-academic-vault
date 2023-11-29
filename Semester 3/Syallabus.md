@@ -1,4 +1,9 @@
+---
+tags:
+- "#college"
+---
+
 # Python programming
-![[Python#Syllabus]]
+![[Academics/Semester 3/Python/Python#Syllabus]]
 # Data warehouse and mining
 ![[Data warehouse and mining#Syllabus]]

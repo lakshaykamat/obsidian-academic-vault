@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Deadlocks
 A deadlock is a state in which two or more processes are unable to proceed because each is waiting for a resource held by the other. This situation halts progress indefinitely, and the processes remain deadlocked, unable to continue execution.
 ![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2015/06/deadlock.png)
 

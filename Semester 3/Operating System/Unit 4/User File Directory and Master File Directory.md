@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+
 # File Directory
 - A physical disk can be broken up into multiple partitions, or mini-disks
 - A file directory, also commonly referred to as a file folder or simply a directory, is a storage structure used within a file system to organize and manage files.

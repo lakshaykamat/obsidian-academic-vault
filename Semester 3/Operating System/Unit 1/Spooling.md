@@ -1,3 +1,10 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+
+# Spooling
 Spooling (Simultaneous Peripheral Operation On-Line) is a technique used in operating systems to improve the efficiency of input/output (I/O) operations, especially when dealing with slower peripheral devices like printers, disk drives, or other devices that operate at a different speed than the CPU.
 
 ## Key aspects

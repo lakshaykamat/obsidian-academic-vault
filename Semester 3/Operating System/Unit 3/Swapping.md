@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Swapping
 Swapping is a memory management technique used in operating systems to optimize the usage of physical memory (RAM). It involves temporarily moving processes or parts of processes from the main memory (RAM) to secondary storage (typically, a hard disk) and vice versa. This is done to ensure that the system has enough memory to execute processes efficiently.
 
 Here's how swapping works:

@@ -1,3 +1,10 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+
+# Banker's Algo
 The Banker's Algorithm is a resource allocation and deadlock avoidance algorithm used in operating systems to manage the allocation of multiple resources among multiple processes while preventing deadlock. It ensures that resources are allocated in a safe manner, avoiding unsafe states that could potentially lead to a deadlock.
 
 ### Key Features

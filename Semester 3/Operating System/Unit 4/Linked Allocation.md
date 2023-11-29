@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Linked allocation
 Linked allocation is a file allocation method used by file systems to store files on a storage device. In this method, files are allocated space in a non-contiguous manner, and each file is represented as a linked list of disk blocks. Here's an overview of linked allocation
 ![Linked List Allocation](https://media.geeksforgeeks.org/wp-content/uploads/linkedListAllocation.jpg)
 

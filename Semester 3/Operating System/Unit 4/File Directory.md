@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# File Directory
 - **Definition:** A file directory, also called a file system directory or folder.
 - **Purpose:** Organizes and manages files and subdirectories in computer systems.
 - **Structure:** Hierarchical arrangement for logical and structured storage.

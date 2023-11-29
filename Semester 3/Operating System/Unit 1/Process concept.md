@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Process concept
 - Instance of a program that is currently being executed by a CPU
 - It needs various resources such as memory, registers, and open files needed for its execution
 

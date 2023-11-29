@@ -18,3 +18,33 @@ State Addition theorem of expectation
 [Probability distribution of X+Y Doubt in Question](https://youtu.be/C8DLKwVRQeE?si=legOLfxccTvk7ah5&t=490)
 
 [X and Y are independent](https://youtu.be/C8DLKwVRQeE?si=qLyuT9oVEOt5eSoC&t=780)
+
+
+During the day on the 28th of November, I will focus on Python, data warehousing, and mining.
+### Matrix
+- [x] Revise Full matrix
+	- [x] Symmetric and Skew symmetric
+	- [x] Orthogonal matrix
+	- [x] Unitary matrix
+	- [x] Rank of matrix
+	- [x] Hermition matrix
+	- [x] Characteristics equation
+	- [x] Eigen values and vectors
+	- [x] Cayley hamiltion theorem
+
+### Differentiation
+- [x] Leibnitz theorem
+- [x] Euler’s Theorem
+- [x] maxima and minima
+- [x] Partial differentiation
+
+### Integrals
+- [x] Bernoulli's formula
+- [x] Double triple integral
+- [x] Reduction formula
+
+## Extra
+- [ ] Unit 3 of data warehouse and mining
+- [ ] Unit 4 of Data warehouse and mining
+
+# Nth derivate is improtant

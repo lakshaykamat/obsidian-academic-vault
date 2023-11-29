@@ -1,3 +1,10 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+
+# Acylic graph directories
 - A file in a one directory can be accessed from multiple directories
 - files could be shared in between the users
 - mutiple directories point to particular directory or file with the help of links

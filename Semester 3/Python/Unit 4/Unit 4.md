@@ -9,4 +9,4 @@ tags:
 2. [[Binary File]]
 3. [[Modules]]
 
-![[Python#UNIT IV]]
+![[Academics/Semester 3/Python/Python#UNIT IV]]

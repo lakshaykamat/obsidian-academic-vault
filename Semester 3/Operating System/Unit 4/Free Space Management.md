@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Free Space management
 Free space list is used to keep track of all free disk blocks
 
 It involves managing the available storage space on the hard disk or other secondary storage devices. 

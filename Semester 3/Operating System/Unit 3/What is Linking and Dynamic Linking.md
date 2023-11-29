@@ -1,3 +1,10 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+
+# What is linking and Dynamic linking
 **Linking** is the process of combining multiple separately compiled code modules into a single executable program. It's an essential step in the software development process. Linking can be done in two ways: static linking and dynamic linking.
 
 1. **Static Linking:** In static linking, all the necessary code from libraries is copied into the final executable at compile-time. This results in a self-contained executable, but it can lead to larger file sizes and multiple instances of the same code if multiple programs use the same libraries.

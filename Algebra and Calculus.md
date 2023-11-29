@@ -1,3 +1,10 @@
+---
+tags:
+- "#plans"
+- "#exam"
+- "#college"
+---
+
 # Syllabus
 ## UNIT I MATRICES 
 Symmetric – Skew-Symmetric - Orthogonal and Unitary matrices - Rank of a Matrix - Consistency - Characteristic equation – Eigen values and Eigen vectors - properties –Cayley, Hamilton’s Theorem (proof not needed) - Simple applications. 

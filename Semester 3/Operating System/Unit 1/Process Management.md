@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# Process management
 Operating system that involves the management, scheduling, and control of processes within a computing environment. 
 A process is an executing instance of a program that includes the program code, data, and various resources required for its execution. Here's an overview of process management:
 

@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+# System calls
 - **Interface for Interaction:** System calls act as an interface between user-level programs and the operating system's kernel.
 - **Requesting Services:** They allow user programs to request OS services like file operations, process management, memory handling, and I/O tasks.
 - **Privileged Operations:** Enable user programs to execute privileged instructions or operations that require higher-level access managed by the OS.

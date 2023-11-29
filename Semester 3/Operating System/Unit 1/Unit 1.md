@@ -1,3 +1,9 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+
 # Unit 1
 1. [[Introduction to Operating System]]
 2. [[Spooling]]
@@ -15,4 +21,4 @@
 	5. [[Threads]]
 	6. [[Inter process communication]]
 
-![[Operating System#UNIT – I]]
+![[Academics/Semester 3/Operating System/Operating System#UNIT – I]]

@@ -1,3 +1,10 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+
+# Indexed allocation
 Indexed allocation is a file allocation method used by file systems to manage file storage on a disk. In this method, a separate index block or table is utilized to keep track of file blocks' addresses or locations within the storage device.
 
 ![Indexed allocation](https://files.codingninjas.in/article_images/indexed-file-allocation-0-1649937783.webp)

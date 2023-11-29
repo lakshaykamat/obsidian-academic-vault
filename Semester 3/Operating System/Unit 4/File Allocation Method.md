@@ -1,3 +1,10 @@
+---
+tags:
+- "#college"
+- "#os"
+---
+
+# File Allocation Method
 File allocation methods are techniques used by file systems to manage how storage space is allocated to files on a storage device like a hard disk. These methods determine how files are stored, organized, and retrieved within the file system.
 # Contiguous method
 

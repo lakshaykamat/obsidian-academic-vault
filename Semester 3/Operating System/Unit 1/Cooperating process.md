@@ -1,3 +1,10 @@
+---
+tags:
+- "#college"
+- "#os"
+---
+
+# Cooperating process
 - Multiple processes that can interact, share resources, and communicate with each other within an OS. 
 - These processes collaborate to achieve a common goal or perform a task. Key aspects of cooperating processes include:
 

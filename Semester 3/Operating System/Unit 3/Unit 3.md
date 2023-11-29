@@ -1,3 +1,9 @@
+---
+tags:
+- "#college"
+- "#os"
+---
+
 # Unit 3
 1. [[Difference between Logical and Physical Address Space]]
 2. [[Swapping]]
@@ -9,4 +15,4 @@
 8. [[What is Segmentation]]
 9. [[Thrasing]]
 
-![[Operating System#UNIT-II]]
+![[Academics/Semester 3/Operating System/Operating System#UNIT-II]]

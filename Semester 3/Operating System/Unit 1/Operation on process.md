@@ -1,3 +1,10 @@
+---
+tags:
+- "#os"
+- "#college"
+---
+
+# Operating on process
 - **Process Creation:** Initiating new processes by the operating system.
 - **Process Termination:** Ending the execution of a process.
 - **Process Scheduling:** Allocating CPU time to multiple processes efficiently.

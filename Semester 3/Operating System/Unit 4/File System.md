@@ -1,3 +1,9 @@
+---
+tags:
+- "#college"
+- "#os"
+---
+# File System
 1. How data is stored and retrieved
 2. It organises and manages files and directories on a storage device in [[Hard Disk Architecture]] etc
 4. It is a internal part of the OS
