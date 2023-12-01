@@ -3,7 +3,6 @@ tags:
 - "#college"
 - "#python"
 ---
-
 # Abstraction
 1. **Hides Complex Details:**
    - Abstraction conceals complex inner workings, showing only essential features to users.

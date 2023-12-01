@@ -1,3 +1,9 @@
+---
+tags:
+  - "#dwm"
+  - "#college"
+---
+# Clustering
 Clustering is a technique used in data mining and machine learning to group a set of objects in such a way that objects in the same group (or cluster) are more similar to each other than to those in other groups. The goal is to partition a dataset into subsets, identifying inherent patterns or structures within the data without prior knowledge of the groupings.
 
 [[Types of Clustering Methods]]
