@@ -1,20 +1,22 @@
+---
+tags:
+- "#college"
+- "#python"
+---
+
 # Assignment 3
 
 ## Attempt all the questions
-### a) What is a Class? 
-### b) What is an Object? 
-### c) What is init () method in Python? 
-### d) What is del () method in Python?
-a) **What is a Class?**
+### a) What is a Class?
    - In Python, a class is a blueprint or a template for creating objects. It defines attributes (variables) and methods (functions) that characterize the objects created from it. It encapsulates data and behavior in a single unit.
 
-b) **What is an Object?**
+### b) What is an Object?
    - An object is an instance of a class. It is a tangible entity created from a class that embodies the properties and behaviors defined within the class. Each object has its unique state (attributes) and behavior (methods).
 
-c) **What is `__init__()` method in Python?**
+### c)What is `__init__()` method in Python?
    - `__init__()` is a special method (also known as the constructor) in Python classes. It is automatically called when an object is created from a class. This method initializes the object's attributes and performs any necessary setup operations.
 
-d) **What is `__del__()` method in Python?**
+### d)What is `__del__()` method in Python?
    - `__del__()` is a special method (also known as the destructor) in Python classes. It is invoked just before an object is destroyed or garbage collected. This method is used to perform cleanup actions, release resources, or perform any necessary finalization before the object is removed from memory.
 
 These methods (`__init__()` and `__del__()`), along with others like `__repr__()`, `__str__()`, etc., are special methods in Python that enable customized behavior within classes and objects.
