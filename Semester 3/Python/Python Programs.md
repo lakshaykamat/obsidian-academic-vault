@@ -5,25 +5,6 @@ tags:
 ---
 
 # Python Programs
-1. Armstrong number
-2. Factorial using recursion or iteration
-3. Fibonacci using recursion or iteration
-4. Check palindrome
-5. Sort an array
-6. Find an element in an array at a specific index
-7. Create a file and write some data in it
-8. Write a pattern of 
-	 *
-     * *
-  * * *
-    *  *  * *  
-9. Wirte a patter of 
-* * * *
- *  * *
- *  *
-
-Certainly! Here are Python solutions to the problems you've listed:
-
 ### 1. Armstrong Number:
 ```python
 def is_armstrong_number(n):
