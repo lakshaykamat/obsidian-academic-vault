@@ -607,3 +607,375 @@ print(my_dict['age'])   # Output: 30
      age = my_dict.pop('age')
      print(age)  # Output: 31
      ```
+
+### 14. What are the benefits of using list comprehensions in Python?
+#### List Comprehensions:
+
+- **What they are:** List comprehensions are a concise way to create lists in Python.
+
+- **Example:**
+  ```python
+  squares = [x**2 for x in range(5)]
+  # squares: [0, 1, 4, 9, 16]
+  ```
+
+#### Benefits:
+1. **Conciseness:**
+   - List comprehensions provide a shorter and more readable way to create lists compared to traditional for-loops.
+
+   ```python
+   # Without list comprehension
+   squares = []
+   for x in range(5):
+       squares.append(x**2)
+
+   # With list comprehension
+   squares = [x**2 for x in range(5)]
+   ```
+
+2. **Readability:**
+   - They make the code more readable by expressing the creation of a list in a single line.
+
+3. **Performance:**
+   - List comprehensions can be more efficient than traditional loops in certain cases, leading to faster execution times.
+
+4. **Filtering Elements:**
+   - Easily create a new list by applying a condition to filter elements from an existing iterable.
+
+   ```python
+   evens = [x for x in range(10) if x % 2 == 0]
+   ```
+
+5. **Scope Isolation:**
+   - Variables created within a list comprehension have limited scope, reducing the chance of unintentional conflicts with variables outside the comprehension.
+
+   ```python
+   # Without list comprehension
+   squares = []
+   x = 5
+   for x in range(10):
+       squares.append(x**2)
+
+   # With list comprehension
+   x = 5
+   squares = [x**2 for x in range(10)]
+   ```
+
+
+### 15. Explain the concept of a Python lambda function and its typical use cases.
+#### Lambda Function
+
+- **What it is:** A lambda function in Python is a concise way to create a small, anonymous function without giving it a formal name.
+
+- **Example:**
+  ```python
+  add = lambda x, y: x + y
+  result = add(3, 5)
+  # result: 8
+  ```
+
+#### Typical Use Cases:
+
+1. **Short Operations:**
+   - Use lambda functions for short, one-time operations where a full function definition might seem overkill.
+
+   ```python
+   multiply_by_two = lambda x: x * 2
+   result = multiply_by_two(4)
+   # result: 8
+   ```
+
+2. **Functional Programming:**
+   - Lambda functions are often used in functional programming constructs like `map()`, `filter()`, and `sorted()`.
+
+   ```python
+   numbers = [1, 2, 3, 4, 5]
+   squared = list(map(lambda x: x**2, numbers))
+   # squared: [1, 4, 9, 16, 25]
+   ```
+
+3. **Sorting:**
+   - Provide a key function for sorting based on specific criteria.
+
+   ```python
+   words = ['banana', 'apple', 'orange', 'grape']
+   sorted_words = sorted(words, key=lambda x: len(x))
+   # sorted_words: ['apple', 'grape', 'banana', 'orange']
+   ```
+
+4. **Anonymous Functions:**
+   - When you need a quick function for a short duration, and naming a function is not necessary.
+
+   ```python
+   total = (lambda x, y: x + y)(3, 7)
+   # total: 10
+   ```
+
+
+### 16. Discuss the purpose and usage of the `map()` and `filter()` functions in Python.
+
+#### `map()` Function:
+
+- **Purpose:** `map()` is used to apply a specified function to each item in an iterable (like a list) and returns an iterator that produces the results.
+
+- **Usage Example:**
+  ```python
+  # Doubling each number in a list
+  numbers = [1, 2, 3, 4, 5]
+  doubled = map(lambda x: x * 2, numbers)
+  result = list(doubled)
+  # result: [2, 4, 6, 8, 10]
+  ```
+
+#### `filter()` Function:
+
+- **Purpose:** `filter()` is used to construct an iterator from elements of an iterable for which a function returns `True`.
+
+- **Usage Example:**
+  ```python
+  # Filtering even numbers from a list
+  numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  evens = filter(lambda x: x % 2 == 0, numbers)
+  result = list(evens)
+  # result: [2, 4, 6, 8, 10]
+  ```
+
+#### Simplified Explanation:
+
+- **`map()`:** Imagine you have a list, and you want to perform the same operation on each element, like doubling or squaring. `map()` helps you do this easily.
+
+- **`filter()`:** Suppose you have a bunch of elements, and you only want to keep certain ones based on a condition. `filter()` lets you do this by selecting only the elements that meet your specified criteria.
+
+
+### 17. Describe the differences between a shallow copy and a deep copy in Python.
+
+#### Shallow Copy:
+
+- **What it is:** A shallow copy creates a new object, but instead of copying the nested objects inside, it copies references to them.
+  
+- **Example:**
+  ```python
+  original_list = [1, [2, 3], 4]
+  shallow_copied_list = original_list.copy()
+
+  # Modifying a nested list in the shallow copy affects the original
+  shallow_copied_list[1][0] = 99
+
+  print(original_list)  # [1, [99, 3], 4]
+  ```
+
+- **Summary:** Changes to nested objects inside the copied structure affect the original, but the top-level structure is independent.
+
+#### Deep Copy:
+
+- **What it is:** A deep copy creates an entirely new object and recursively copies all nested objects, so changes in the copy don't affect the original.
+
+- **Example:**
+  ```python
+  import copy
+
+  original_list = [1, [2, 3], 4]
+  deep_copied_list = copy.deepcopy(original_list)
+
+  # Modifying a nested list in the deep copy doesn't affect the original
+  deep_copied_list[1][0] = 99
+
+  print(original_list)  # [1, [2, 3], 4]
+  ```
+
+- **Summary:** The copy is fully independent of the original; changes to the copy don't impact the original structure, even for nested objects.
+
+#### Simple Rule of Thumb:
+
+- Use a **shallow copy** if you want a new object but don't mind if changes to nested structures affect the original.
+  
+- Use a **deep copy** if you want a completely independent copy, ensuring changes in the copied structure don't affect the original.
+
+In everyday terms, think of it like making a photocopy of a document:
+
+- **Shallow Copy:** The copy looks the same, but if you highlight something in the copy, it will also be highlighted in the original.
+
+- **Deep Copy:** The copy is entirely separate; changes to the copy won't impact the original document, even if you scribble all over it.
+
+### 18.  Explain how to handle file input/output operations in Python.
+
+#### Reading from a File:
+
+1. **Open a File:**
+   - Use the `open()` function to open a file. Provide the file path and specify the mode (e.g., `'r'` for reading).
+
+   ```python
+   file_path = 'example.txt'
+   with open(file_path, 'r') as file:
+       # File operations go here
+   ```
+
+2. **Read Content:**
+   - Use methods like `read()`, `readline()`, or `readlines()` to read the content.
+
+   ```python
+   with open(file_path, 'r') as file:
+       content = file.read()  # Reads the entire content
+   ```
+
+   ```python
+   with open(file_path, 'r') as file:
+       lines = file.readlines()  # Reads lines into a list
+   ```
+
+#### Writing to a File:
+
+1. **Open a File in Write Mode:**
+   - Use the `open()` function with `'w'` mode to open a file for writing. If the file doesn't exist, it will be created. If it does exist, its content will be overwritten.
+
+   ```python
+   file_path = 'output.txt'
+   with open(file_path, 'w') as file:
+       # File operations go here
+   ```
+
+2. **Write Content:**
+   - Use methods like `write()` to add content to the file.
+
+   ```python
+   with open(file_path, 'w') as file:
+       file.write('Hello, World!\n')
+   ```
+
+#### Appending to a File:
+
+- If you want to add content to an existing file without overwriting its current content, open it in append mode (`'a'`).
+
+   ```python
+   with open(file_path, 'a') as file:
+       file.write('Appended line\n')
+   ```
+
+#### Closing the File:
+
+- The `with` statement automatically closes the file when the code block is exited. However, you can explicitly close a file using the `close()` method.
+
+   ```python
+   file = open(file_path, 'r')
+   content = file.read()
+   file.close()
+   ```
+
+#### Handling Errors:
+
+- Wrap file operations in a `try`...`except` block to handle potential errors, such as file not found.
+
+   ```python
+   try:
+       with open(file_path, 'r') as file:
+           content = file.read()
+   except FileNotFoundError:
+       print(f"File not found: {file_path}")
+   ```
+
+#### Using `with` Statement:
+
+- The `with` statement ensures proper handling of resources, like closing the file. It's a recommended practice for file I/O.
+
+   ```python
+   with open(file_path, 'r') as file:
+       content = file.read()
+   ```
+
+That's a basic overview. Remember to handle exceptions, close files properly, and be mindful of file modes to control read, write, or append operations.
+
+### 19. Discuss the significance of the global keyword in Python and its implications.
+
+The `global` keyword is used to indicate that a variable is a global variable rather than a local variable within the current scope.
+#### Significance of `global` Keyword:
+
+1. **Global vs. Local Scope:**
+   - Variables defined inside a function are typically considered local to that function. If you want to modify a global variable from within a function, you need to use the `global` keyword.
+
+2. **Modify Global Variables:**
+   - Without the `global` keyword, if you try to assign a value to a variable inside a function, Python will create a new local variable with that name instead of modifying the global variable.
+
+   ```python
+   x = 10  # Global variable
+
+   def modify_variable():
+       x = 5  # This creates a new local variable, not modifying the global one
+       print(x)
+
+   modify_variable()  # Output: 5
+   print(x)  # Output: 10 (global variable is unchanged)
+   ```
+
+   To modify the global variable, use `global`:
+
+   ```python
+   x = 10  # Global variable
+
+   def modify_variable():
+       global x  # Use the global keyword
+       x = 5
+       print(x)
+
+   modify_variable()  # Output: 5
+   print(x)  # Output: 5 (global variable is modified)
+   ```
+
+#### Implications:
+
+1. **Avoiding Unintended Local Variables:**
+   - Without the `global` keyword, if a local variable in a function has the same name as a global variable, it could lead to unintentional shadowing. The function might create a new local variable instead of modifying the global one.
+
+2. **Explicit Global Declaration:**
+   - The use of `global` makes it clear that you intend to modify a global variable within a function. This improves code readability and avoids confusion.
+
+3. **Avoid Overuse:**
+   - While the `global` keyword is useful, overusing it can lead to code that is harder to understand and maintain. It's generally a good practice to minimize the use of global variables and prefer passing values through function parameters.
+
+### 20. Explain the concepts of iterators and iterables in Python. Provide examples.
+
+#### Iterable:
+
+- **What it is:** An iterable is any object in Python capable of returning its elements one at a time. Lists, tuples, strings, and dictionaries are examples of iterables.
+
+- **Example:**
+  ```python
+  my_list = [1, 2, 3, 4, 5]
+  ```
+
+- **Explanation:** You can iterate over the elements of an iterable, accessing them one by one.
+
+#### Iterator:
+
+- **What it is:** An iterator is an object that represents a stream of data. It provides a way to access elements sequentially without exposing the underlying details of the data structure.
+
+- **Example:**
+  ```python
+  my_iterator = iter([1, 2, 3, 4, 5])
+  ```
+
+- **Explanation:** You create an iterator from an iterable using the `iter()` function. Then, you can use the `next()` function to get the next element in the sequence.
+
+#### Using Iterable and Iterator:
+
+- **Example:**
+  ```python
+  my_list = [1, 2, 3, 4, 5]
+  my_iterator = iter(my_list)
+
+  # Accessing elements using the iterator
+  print(next(my_iterator))  # Output: 1
+  print(next(my_iterator))  # Output: 2
+
+  # You can also use a for loop to iterate over the iterable directly
+  for element in my_list:
+      print(element)
+  ```
+
+- **Explanation:** In this example, `my_list` is an iterable, and `my_iterator` is an iterator created from it. The `next()` function is used to retrieve elements one at a time from the iterator. Alternatively, you can use a `for` loop to iterate directly over the iterable.
+
+#### Behind the Scenes:
+
+- **Explanation:** When you use a `for` loop or the `next()` function, Python automatically handles the creation of an iterator from the iterable. The loop or function keeps calling `next()` until there are no more elements, and then it raises a `StopIteration` exception to signal the end of the sequence.
+
+## Google Drive
+<iframe src="https://drive.google.com/file/d/1-4CprjNZgRze-j8N9HrfOn7uZMkWcTvE/preview" width="640" height="480" allow="autoplay"></iframe>
