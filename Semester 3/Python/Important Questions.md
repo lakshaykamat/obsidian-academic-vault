@@ -977,5 +977,24 @@ The `global` keyword is used to indicate that a variable is a global variable ra
 
 - **Explanation:** When you use a `for` loop or the `next()` function, Python automatically handles the creation of an iterator from the iterable. The loop or function keeps calling `next()` until there are no more elements, and then it raises a `StopIteration` exception to signal the end of the sequence.
 
+
+### 21.Difference between `read()`,`readline()`,and `readlines()`
+Sure, here's a comparison between `read()`, `readline()`, and `readlines()` methods in Python:
+
+| Method      | Functionality                                        | Returns                                      |
+|-------------|------------------------------------------------------|----------------------------------------------|
+| `read()`    | Reads the entire contents of the file or specified number of characters if provided. | String                                       |
+| `readline()`| Reads a single line from the file, moving the file pointer to the next line. If called again, it reads the next line. | String                                       |
+| `readlines()` | Reads all lines from the file, returning a list where each element is a line from the file. | List of Strings                              |
+
+
+
+### 22. What is `seek()`,`tell()` and `truncate()`?
+|Method|Functionality|Returns/Operation|
+|---|---|---|
+|`seek(offset, from)`|Moves the file pointer to a specified position (offset) within the file, based on the `from` parameter (`0` - beginning of the file, `1` - current position, `2` - end of the file).|-|
+|`tell()`|Returns the current position of the file pointer.|Integer (position in the file)|
+|`truncate(size=None)`|Resizes the file to the specified size. If `size` is not provided or is `None`, it truncates the file at the current position of the file pointer (or at the current position if `size` is provided).|-|
+
 ## Google Drive
 <iframe src="https://drive.google.com/file/d/1-4CprjNZgRze-j8N9HrfOn7uZMkWcTvE/preview" width="640" height="480" allow="autoplay"></iframe>
