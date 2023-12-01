@@ -370,3 +370,240 @@ Object-Oriented Programming (OOP) in Python is a paradigm that allows you to str
      print(animal_sound(cat))  # Output: "Meow!"
      ```
      The `animal_sound()` function accepts different animal objects and calls their `make_sound()` method, demonstrating polymorphic behavior.
+### 9. What are the differences between `append()` and `extend()` methods in Python lists?
+The `append()` and `extend()` methods in Python lists are used to add elements to a list, but they differ in how they add elements and the types of elements they can handle.
+
+#### `append()` Method:
+
+- **Usage:** `list.append(element)`
+- **Functionality:** Adds a single element to the _end of the list._
+- **Argument:** Accepts only _one argument,_ which can be any valid Python object (e.g., integer, string, list, etc.).
+- **Behavior:**
+  - When `append()` is called, the given element is added as a single element at the end of the list.
+  - If the element itself is a list, it is added as a single element within the original list.
+- **Example:**
+  ```python
+  my_list = [1, 2, 3]
+  my_list.append(4)
+  print(my_list)  # Output: [1, 2, 3, 4]
+
+  my_list.append([5, 6])
+  print(my_list)  # Output: [1, 2, 3, 4, [5, 6]]
+  ```
+
+#### `extend()` Method:
+
+- **Usage:** `list.extend(iterable)`
+- **Functionality:** Adds elements from an _iterable_ (e.g., list, tuple, string) to the end of the list.
+- **Argument:** Accepts only one argument, which _must be an iterable_ (e.g., list, tuple, string).
+- **Behavior:**
+  - When `extend()` is called, it iterates through the elements of the given iterable and adds each individual element to the end of the list.
+  - It does not add the iterable as a single element; rather, it **adds each element of the iterable to the list.
+- **Example:**
+  ```python
+  my_list = [1, 2, 3]
+  my_list.extend([4, 5])
+  print(my_list)  # Output: [1, 2, 3, 4, 5]
+
+  my_list.extend('hello')
+  print(my_list)  # Output: [1, 2, 3, 4, 5, 'h', 'e', 'l', 'l', 'o']
+  ```
+
+#### Summary of Differences:
+
+- `append()` adds a single element to the end of the list.
+- `extend()` adds elements from an iterable to the end of the list, adding each individual element to the list rather than adding the iterable as a single element.
+- Use `append()` when you want to add a single element or a list as a single element. Use `extend()` when you want to add elements from another iterable to the end of the list individually.
+
+### 10. Explain the role of the `__init__()` method in Python classes and its significance.
+The `__init__()` method in Python is a special method, also known as the constructor method, used within a class to _initialize object instances._ It is called automatically whenever a new object of that class is created, allowing you to perform initialization tasks and set up the object's initial state.
+
+#### Role and Significance of `__init__()` Method:
+
+1. **Initialization of Object Attributes:**
+   - The primary purpose of `__init__()` is to _initialize the attributes (or properties) of an object._
+   - Within the `__init__()` method, you can set initial values for object attributes by assigning values to instance variables using `self`.
+
+2. **Automatic Invocation:**
+   - When an instance of a class is created using the class name followed by parentheses (`ClassName()`), Python _automatically calls_ the `__init__()` method for that newly created object.
+
+3. **Initialization at Object Creation:**
+   - `__init__()` ensures that necessary _attributes are set_ and initialized at the time of object creation, allowing the object to be in a valid state.
+
+4. **Constructor Behavior:**
+   - `__init__()` acts as a constructor, allowing you to perform any setup or configuration tasks required for the object's creation.
+   - It allows you to define default values for attributes, perform validations, or execute any necessary initialization code.
+
+5. **Usage and Customization:**
+   - You can customize the `__init__()` method based on the class's requirements and initialize attributes based on constructor arguments passed when creating an instance.
+
+##### Example:
+
+```python
+class Person:
+    def __init__(self, name, age):
+        self.name = name  # Initialize name attribute
+        self.age = age    # Initialize age attribute
+
+    def display_info(self):
+        print(f"Name: {self.name}, Age: {self.age}")
+
+# Creating instances of the Person class
+person1 = Person("Alice", 30)
+person2 = Person("Bob", 25)
+
+# Displaying information using instance method
+person1.display_info()  # Output: Name: Alice, Age: 30
+person2.display_info()  # Output: Name: Bob, Age: 25
+```
+
+### 11. Describe the differences between `==` and `is` operators in Python?
+
+In Python, the `==` operator and the `is` operator are used for different purposes and have distinct functionalities
+
+#### `==` Operator
+- **Usage:** Used for comparison of values between two objects.
+- **Functionality:** Checks if the values of two objects are equal.
+- **Operation:** Evaluates to `True` if the values of the compared objects are equal; otherwise, it returns `False`.
+- **Explanation:** The `==` operator compares the values of the objects `a` and `b`. It checks whether the contents of both lists are the same.
+
+
+
+#### `is` Operator
+
+- **Usage:** Used for identity comparison between two objects.
+- **Functionality:** Checks if two objects refer to the same memory location or have the same identity.
+- **Operation:** Evaluates to `True` if the objects being compared have the same identity (i.e., they are the same object); otherwise, it returns `False`.
+- **Explanation:** The `is` operator checks whether `x` and `y` reference the same object in memory. Even though their values are the same, they are separate objects created in different memory locations.
+
+#### Differences Summary
+
+- `==` checks for equality of values between two objects.
+- `is` checks for object identity, whether two objects are the same object in memory.
+- Use `==` for value comparison (checking if contents are equal).
+- Use `is` for identity comparison (checking if two references point to the same object in memory).
+
+### 12. How does Python handle default arguments in function definitions?
+Default arguments in function definitions allow you to specify default values for parameters. 
+
+When a function is called and arguments are not provided for those parameters with default values, the default values specified in the function definition are used.
+
+#### Key Points about Default Arguments:
+
+1. **Defining Default Values:**
+   - Default arguments are specified in the function header by assigning a default value to a parameter.
+   - Parameters with default values must follow parameters without default values in the function definition.
+   - Example:
+     ```python
+     def greet(name, message="Hello"):
+         print(f"{message}, {name}!")
+     ```
+
+2. **Usage of Default Arguments:**
+   - When a function is called, arguments can be passed explicitly for parameters with default values or omitted.
+   - If an argument is not provided for a parameter with a default value, the default value specified in the function definition is used.
+   - Example:
+     ```python
+     greet("Alice")          # Output: Hello, Alice!
+     greet("Bob", "Hi")      # Output: Hi, Bob!
+     ```
+
+3. **Evaluation of Default Values:**
+   - Default values for parameters are evaluated only once, at the time of function definition.
+   - If the default value is a mutable object (e.g., list, dictionary), modifications made to it within the function persist across function calls.
+   - Example:
+     ```python
+     def append_value(value, my_list=[]):
+         my_list.append(value)
+         return my_list
+
+     print(append_value(1))  # Output: [1]
+     print(append_value(2))  # Output: [1, 2]
+     ```
+
+4. **Ordering of Parameters:**
+   - Parameters with default values must follow non-default parameters in the function definition.
+   - Incorrect ordering of parameters (non-default parameters following default parameters) results in a syntax error.
+
+#### Points to Consider:
+
+- Default arguments *provide flexibility* by allowing functions to be called with fewer arguments if default values are sufficient.
+- *Care should be taken when using mutable default values* to avoid unexpected behavior due to modifications persisting across function calls.
+### 13.Explain the concept of a Python dictionary and its common methods.
+A dictionary is a *mutable and unordered collection of key-value pairs.*
+
+It is a *versatile data structure* that allows efficient storage, retrieval, and manipulation of data. 
+
+Dictionaries are defined using curly braces `{}`, and each key-value pair is separated by a colon `:`.
+
+#### Key Characteristics of Python Dictionary:
+
+1. **Unordered Collection:**
+   - Dictionaries do not maintain any specific order for their elements. In Python 3.7 and later versions, dictionaries retain the order of insertion.
+
+2. **Key-Value Pairs:**
+   - Each element in a dictionary is a key-value pair, where the key is unique and the value can be of any data type (int, str, list, another dictionary, etc.).
+  
+3. **Mutable:**
+   - Dictionaries are mutable, meaning they can be modified by adding, updating, or deleting key-value pairs.
+
+#### Example of Creating a Dictionary:
+
+```python
+# Creating a dictionary
+my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}
+
+# Accessing values using keys
+print(my_dict['name'])  # Output: 'Alice'
+print(my_dict['age'])   # Output: 30
+```
+
+#### Common Dictionary Methods:
+
+1. **`get(key, default=None)` Method:**
+   - Retrieves the value associated with the specified key. If the key is not found, it returns the default value (if provided) or `None`.
+   - Example:
+     ```python
+     print(my_dict.get('name'))        # Output: 'Alice'
+     print(my_dict.get('gender'))      # Output: None
+     print(my_dict.get('gender', 'N/A'))  # Output: 'N/A'
+     ```
+
+2. **`keys()` Method:**
+   - Returns a view object containing all the keys in the dictionary.
+   - Example:
+     ```python
+     print(my_dict.keys())  # Output: dict_keys(['name', 'age', 'city'])
+     ```
+
+3. **`values()` Method:**
+   - Returns a view object containing all the values in the dictionary.
+   - Example:
+     ```python
+     print(my_dict.values())  # Output: dict_values(['Alice', 30, 'New York'])
+     ```
+
+4. **`items()` Method:**
+   - Returns a view object containing all the key-value pairs as tuples in the dictionary.
+   - Example:
+     ```python
+     print(my_dict.items())  # Output: dict_items([('name', 'Alice'), ('age', 30), ('city', 'New York')])
+     ```
+
+5. **`update(dictionary)` Method:**
+   - Updates the dictionary with key-value pairs from another dictionary or an iterable of key-value pairs.
+   - Example:
+     ```python
+     new_data = {'email': 'alice@example.com', 'age': 31}
+     my_dict.update(new_data)
+     print(my_dict)
+     # Output: {'name': 'Alice', 'age': 31, 'city': 'New York', 'email': 'alice@example.com'}
+     ```
+
+6. **`pop(key, default)` Method:**
+   - Removes and returns the value associated with the specified key. If the key is not found, it returns the default value (if provided) or raises a `KeyError`.
+   - Example:
+     ```python
+     age = my_dict.pop('age')
+     print(age)  # Output: 31
+     ```
