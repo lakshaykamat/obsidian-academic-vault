@@ -1,7 +1,7 @@
 ---
 tags:
-- "#os"
-- "#colllege"
+  - "#os"
+  - "#college"
 ---
 # Paging
 Paging is a memory management technique used in operating systems to manage the allocation of memory to processes. It involves breaking up the physical memory into fixed-size blocks called pages. The process of retrieving processes in the form of pages from secondary storage (e.g., a hard disk) into the main memory is known as paging. Each page is the same size, and it simplifies memory allocation and management.
