@@ -5,24 +5,39 @@ tags:
 ---
 # Short answer question
 ## Explain the role of bootstrap program
-The bootstrap program is like the starting point for a computer. It kicks off the process when you turn on the computer, helping it to find and load the main system (like Windows or macOS). It gets everything ready, so the computer can start working and you can use it.
-## What is throughput
-Throughput refers to the rate at which a system or device can process and deliver a certain amount of work within a specified period. It measures the amount of data, tasks, or operations completed successfully per unit of time, indicating the system's efficiency or capacity in handling workloads.
+The bootstrap program is like the *starting point for a computer*. 
+
+It kicks off the process when you turn on the computer, helping it to find and load the main system (like Windows or macOS). 
+
+It gets everything ready, so the computer can start working and you can use it.
+## What is Throughput
+Throughput refers to the *rate at which a system or device can process and deliver a certain amount of work within a specified period.* 
+
+It measures the amount of data, tasks, or operations completed successfully per unit of time, indicating the system's efficiency or capacity in handling workloads.
 
 > Throughput is like the speed limit on a highway—it measures how much stuff (like data or tasks) a system can handle in a specific time, showing how fast things get done or processed.
 
 ## Differentiate program and process
-A program is a set of stored instructions awaiting execution, while a process is an active execution of those instructions in memory. Programs reside as files, whereas processes utilize system resources, executing tasks with allocated memory and CPU time.
+A program is a set of *stored instructions awaiting execution,* while a process is an *active execution of those instructions in memory.* Programs reside as files, whereas processes utilize system resources, executing tasks with allocated memory and CPU time.
 ## Why Deadlock occur
-[[Deadlocks]] occurs when two or more processes are indefinitely waiting for resources held by each other, creating a circular dependency. Each process waits for a resource held by another, preventing any progression and leading to a standstill where none can proceed, causing a system deadlock.
+[[Deadlocks]] occurs when two or more processes are indefinitely waiting for resources held by each other, creating a circular dependency. 
+
+Each process waits for a resource held by another, preventing any progression and leading to a standstill where none can proceed, causing a system deadlock.
+![](https://prepinstadotcom.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/01/Deadlock-in-Operating-System-1.webp)
 ## What is semaphore
-A semaphore is like a traffic signal for programs. It helps control when different parts of a program can use shared things, ensuring that only one part uses them at a time. It prevents chaos and helps programs work together smoothly.
+A semaphore is like a *traffic signal for programs.* It helps control when different parts of a program **can use shared things, ensuring that only one part uses them at a time.** 
+
+> It prevents chaos and helps programs work together smoothly.
+![](https://scaler.com/topics/images/binary-semaphores.webp)
 ## Define the term seek time
 Seek time refers to the time taken by a hard drive's read/write head to position itself to the specific track or location where data is stored. 
 
 It is the time the head takes to move to the correct position on the disk from its current position, typically measured in milliseconds (ms). Lower seek times indicate faster access to data and contribute to overall disk performance.
 ## What is Thrashing
-[[Thrasing]] occurs in a computer system when the CPU spends more time swapping data between memory and the disk (paging or swapping) than executing actual tasks. It happens due to excessive multitasking or insufficient memory. The system becomes overwhelmed, resulting in a decrease in performance as it struggles to handle the constant swapping, leading to a slow-down or freeze in operations.
+[[Thrasing]] occurs in a computer system when the CPU spends more time swapping data between memory and the disk (paging or swapping) than executing actual tasks. 
+
+It happens due to excessive multitasking or insufficient memory. The system becomes overwhelmed, resulting in a decrease in performance as it struggles to handle the constant swapping, leading to a slow-down or freeze in operations.
+![](https://media.geeksforgeeks.org/wp-content/uploads/2-103.png)
 ## What is Segmentation
 [[What is Segmentation|Segmentation]] is a memory management technique used by operating systems to divide a process into segments of variable sizes. 
 
