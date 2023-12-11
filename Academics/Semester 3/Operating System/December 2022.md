@@ -7,11 +7,11 @@ tags:
 <iframe src="https://drive.google.com/file/d/1K7uKq31KSP-OLz3WOkQncibf3_ICEH-0/preview" width="640" height="480" allow="autoplay"></iframe>
 
 # Table of content
-## [[December 2022#Short answer question|Short answer question]]
-### [[December 2022#What is Kernal|What is kernal]]
-### [[December 2022#What is Overlays|What is overlays]]
-### [[December 2022#Differentiate between preemptive and non-preemptive scheduling.|Differentiate between preemptive and non-preemptive scheduling]]
-### [[December 2022#Differentiate between contiguous and non-contiguous memory allocation methods.|Differentiate between contiguous and non-contiguous memory allocation methods.]]
+## [[Academics/Semester 3/Operating System/December 2022#Short answer question|Short answer question]]
+### [[Academics/Semester 3/Operating System/December 2022#What is Kernal|What is kernal]]
+### [[Academics/Semester 3/Operating System/December 2022#What is Overlays|What is overlays]]
+### [[Academics/Semester 3/Operating System/December 2022#Differentiate between preemptive and non-preemptive scheduling.|Differentiate between preemptive and non-preemptive scheduling]]
+### [[Academics/Semester 3/Operating System/December 2022#Differentiate between contiguous and non-contiguous memory allocation methods.|Differentiate between contiguous and non-contiguous memory allocation methods.]]
 
 # Short answer question
 ## What is Kernal

@@ -47,24 +47,15 @@ Each segment represents a logical unit such as code, data, stack, or heap. Segme
 
 ## List out the major attributes of the file
 
-1. **Name:** The file's identifier by which it's known or referenced.
-  
+1. **Name:** The file's identifier by which it's known or referenced. 
 2. **Type:** Indicates the file format or its classification (e.g., text file, executable, directory).
-  
 3. **Size:** The amount of space occupied by the file in bytes or kilobytes.
-
 4. **Location:** The physical location on the storage device where the file is stored.
-  
 5. **Permission/Protection:** Specifies who can read, write, or execute the file and what type of access they have.
-
 6. **Creation Date:** The date and time when the file was created.
-
 7. **Modification Date:** The date and time when the file was last modified.
-  
 8. **Owner:** The user or account that has control and authority over the file.
-  
 9. **File Extension:** The suffix at the end of a filename indicating its file type or format.
-  
 10. **Attributes/Flags:** Additional settings or characteristics associated with the file, such as whether it's hidden or read-only.
 
 # Long Answer Question
@@ -99,7 +90,7 @@ Here's how paging works:
 4. **Address Mapping:** When a process requests data, the CPU translates logical addresses using the page table to determine the corresponding physical addresses in memory.
 
 5. **Memory Access:** The data is fetched or stored at the physical memory address derived from the translation, allowing the process to access the required memory content.
-
+![](https://scaler.com/topics/images/what-is-paging.webp)
 ### Benefits of Paging
 - Efficient Memory Utilization: Allows for dynamic allocation of memory to processes, minimizing internal fragmentation.
 - Simplified Memory Management: Facilitates easier management of memory spaces by breaking it into smaller, manageable units.
