@@ -384,7 +384,7 @@ It evaluates the system's compliance with specified requirements and ensures tha
 
 
 ## Write a short note on the following a) Characteristics of a good SRS b) Inspection, review and walkthrough c) Function count d) Software re-enginnering
-### a) Characteristics of a good SRS (Software Requirements Specification):
+### a) Characteristics of a good SRS (Software Requirements Specification)
 
 A good Software Requirements Specification (SRS) document possesses the following characteristics:
 
@@ -400,7 +400,7 @@ A good Software Requirements Specification (SRS) document possesses the followin
 
 6. **Correct and Understandable:** Clearly understandable by all stakeholders, including developers, testers, and end-users, without technical jargon.
 
-### b) Inspection, Review, and Walkthrough:
+### b) Inspection, Review, and Walkthrough
 
 These are different types of software inspection techniques used to evaluate and improve the quality of documents or artifacts within the software development process.
 
@@ -410,7 +410,7 @@ These are different types of software inspection techniques used to evaluate and
   
 - **Walkthrough:** A technique where the author of the software artifact guides the team through the document or code, explaining the details and inviting feedback.
 
-### c) Function Count:
+### c) Function Count
 
 Function count refers to the process of quantifying the functionality provided by software based on user requirements or specifications. 
 
