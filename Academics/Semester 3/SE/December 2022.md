@@ -404,15 +404,17 @@ A good Software Requirements Specification (SRS) document possesses the followin
 
 These are different types of software inspection techniques used to evaluate and improve the quality of documents or artifacts within the software development process.
 
-- **Inspection:** A formal technique where a group examines the software documents to detect defects or issues. It involves systematic examination, but without executing the code.
+- **Inspection:** A *formal technique* where a **group examines the software documents to detect defects or issues.** It involves systematic examination, but without executing the code.
   
-- **Review:** A less formal process than inspection, involving a group of peers or experts examining the software artifacts for feedback and improvements.
+- **Review:** A *less formal process* than inspection, involving a group of peers or experts examining the software artifacts for feedback and improvements.
   
 - **Walkthrough:** A technique where the author of the software artifact guides the team through the document or code, explaining the details and inviting feedback.
 
 ### c) Function Count:
 
-Function count refers to the process of quantifying the functionality provided by software based on user requirements or specifications. Techniques like Function Point Analysis (FPA) are used to measure the software size, complexity, and functionality, which assists in estimating effort, cost, and resources required for development.
+Function count refers to the process of quantifying the functionality provided by software based on user requirements or specifications. 
+
+Techniques like Function Point Analysis (FPA) are used to measure the software size, complexity, and functionality, which assists in estimating effort, cost, and resources required for development.
 
 ### d) Software Re-engineering:
 
