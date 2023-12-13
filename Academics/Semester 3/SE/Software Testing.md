@@ -67,7 +67,6 @@ Verifies the entire software system against specified requirements to ensure it 
 
 #### 2. Non-Functional Testing
 Evaluates aspects beyond functionality, including performance, usability, security, and compatibility to ensure overall software quality.
-Sure, here's a brief explanation for each point:
 
 ##### 1. Performance Testing
    - **Load Testing:** Evaluates system behavior under specific loads.
