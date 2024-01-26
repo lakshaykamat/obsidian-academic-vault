@@ -1,0 +1,3 @@
+# Unit 3
+## Testing object oriented software: 
+Challenges, Differences from testing non-Object Oriented Software, Class testing strategies, Class Modality, State-based Testing, Message Sequence Specification. Testability and related issues: Design for Testability - Observability & Controllability - Built- in Test – Design by Contract - Precondition, Post condition and Invariant - Impact on inheritance - Applying in the real world Regression Testing – Challenges.

@@ -1,0 +1,3 @@
+# Unit 2
+## Testing strategies: 
+White box testing techniques: Control Flow based testing -Statement coverage, Branch Coverage, Path Coverage; Data flow based testing, Mutation testing, Automated code coverage analysis, Black box testing techniques: Boundary value analysis, Robustness testing, Equivalence partitioning, Cause-effect graphing, Syntax testing - Finite state testing; Levels of testing - Unit, Integration and System Testing; Acceptance testing: α, β, and γ testing.
