@@ -46,4 +46,4 @@ In a bus topology, all devices share a single communication line or cable, calle
 
 Bus topology is less commonly used in modern networking environments due to its limitations in terms of scalability and susceptibility to collisions. Other topologies like star or ring are often preferred for their better performance and fault tolerance.
 
-![](https://cdn1.byjus.com/wp-content/uploads/2022/07/bus-topology.png)
+![](https://media.geeksforgeeks.org/wp-content/uploads/20200607191601/Bus-Topology1.png)

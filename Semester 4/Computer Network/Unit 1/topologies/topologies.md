@@ -11,7 +11,7 @@ Network topology refers to the layout or arrangement of the different elements (
    - Hub or switch acts as a repeater for data flow.
    - Easy to install and manage, and if one connection fails, it doesn't affect the others.
 
-3. [[ring-topologies|Ring Topology:]]
+3. [[Academics/Semester 4/Computer Network/Unit 1/topologies/ring-topologies|Ring Topology:]]
    - Devices are connected in a closed-loop or ring.
    - Data travels in one direction, passing through each device until it reaches its destination.
    - Reliability is high, but if one device or connection fails, the entire network can be affected.

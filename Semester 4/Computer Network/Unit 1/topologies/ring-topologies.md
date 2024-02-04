@@ -1,5 +1,6 @@
 # Ring Topology
 In a ring topology, each device is connected to exactly two other devices, forming a closed loop or ring. Data travels in one direction around the ring, passing through each device until it reaches its destination. Here are the key characteristics of ring topology:
+![](https://media.geeksforgeeks.org/wp-content/uploads/20200526102238/Untitled-Diagram-153-1.png)
 
 1. **Closed Loop:**
    - The network forms a closed loop or ring, where each device is connected to exactly two other devices.

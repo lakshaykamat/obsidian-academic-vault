@@ -1,6 +1,6 @@
 # Syllabus
 ![[Computer Network]]
-![[AI]]
+![[Academics/Semester 4/AI/AI]]
 ![[Java Programming]]
 ![[R programming]]
 ![[Software Testing]]
