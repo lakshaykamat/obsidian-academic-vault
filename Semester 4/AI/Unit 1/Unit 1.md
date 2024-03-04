@@ -19,3 +19,5 @@ Generate and test, hill climbing, best first search technique, problem reduction
 	- [[uninformed-searching|Uninformed Searching]]
 	- [[informed-searching|Informed Searching]]
 	- [[difference-between-informed-and-uninformed|Difference between informed and uninformed]]
+	- [[breadth-first-search|Bread First Search]]
+	- [[depth-first-search|Depth First Search]]

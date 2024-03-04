@@ -1,5 +1,10 @@
 ## History of R
-The history of R dates back about 20-30 years. Developed by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand, R is currently maintained by the R Development Core Team. The language's name is derived from the initials of both developers. The first project commenced in 1992, and the initial version was released in 1995. A stable beta version was introduced in 2000.
+- R's history spans approximately 20-30 years.
+- Ross Ihaka and Robert Gentleman, based at the University of Auckland, New Zealand, developed R.
+- The R Development Core Team currently maintains the language.
+- The name "R" is derived from the initials of its developers.
+- The project began in 1992, and the initial version was released in 1995.
+- A stable beta version of R was introduced in 2000.
 
 **R Programming Releases:**
 
@@ -23,7 +28,7 @@ The history of R dates back about 20-30 years. Developed by Ross Ihaka and Rober
 ## Features of R
 1. **Open Source:** Freely accessible, encourages collaboration.
 2. **Statistical Computing:** Designed for advanced statistical analyses.
-3. **Data Visualization:** Robust graphing, including ggplot 2 capabilities.
+3. **Data Visualization:** Robust graphing, including `ggplot 2` capabilities.
 4. **Data Manipulation:** Efficient cleaning and transformation of data.
 5. **Extensive Libraries:** Diverse packages for various applications.
 6. **Community Support:** Active global community with abundant resources.
@@ -47,16 +52,16 @@ The history of R dates back about 20-30 years. Developed by Ross Ihaka and Rober
 
 ## Difference between R and Python
 
-| Feature              | R                                       | Python                                          |
-|----------------------|-----------------------------------------|-------------------------------------------------|
-| Primary Use          | Statistical Analysis and Data Science    | General-purpose programming, Data Science       |
-| Syntax               | Specialized syntax for statistical tasks | General-purpose syntax, easy to read and write   |
-| Libraries            | Rich statistical libraries and packages  | Extensive libraries for diverse applications    |
-| Data Manipulation    | Efficient for data manipulation         | Pandas library for powerful data manipulation   |
-| Visualization        | Strong statistical graphics capabilities | Matplotlib and Seaborn for visualization        |
-| Learning Curve       | Steeper learning curve for beginners     | Easier syntax, suitable for beginners           |
-| Community            | Strong community in statistics          | Broad community across various domains          |
-| Integration           | Limited integration with non-statistical tools | Versatile integration with different tools     |
-| Popularity           | Widely used in academia for research     | Widely used in web development and industry     |
-| Flexibility           | Specialized for statistical tasks       | General-purpose, adaptable to diverse projects  |
+| Feature           | R                                              | Python                                         |
+| ----------------- | ---------------------------------------------- | ---------------------------------------------- |
+| Primary Use       | Statistical Analysis and Data Science          | General-purpose programming, Data Science      |
+| Syntax            | Specialized syntax for statistical tasks       | General-purpose syntax, easy to read and write |
+| Libraries         | Rich statistical libraries and packages        | Extensive libraries for diverse applications   |
+| Data Manipulation | Efficient for data manipulation                | Pandas library for powerful data manipulation  |
+| Visualization     | Strong statistical graphics capabilities       | Matplotlib and Seaborn for visualization       |
+| Learning Curve    | Steeper learning curve for beginners           | Easier syntax, suitable for beginners          |
+| Community         | Strong community in statistics                 | Broad community across various domains         |
+| Integration       | Limited integration with non-statistical tools | Versatile integration with different tools     |
+| Popularity        | Widely used in academia for research           | Widely used in web development and industry    |
+| Flexibility       | Specialized for statistical tasks              | General-purpose, adaptable to diverse projects |
 
