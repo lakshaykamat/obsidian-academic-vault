@@ -1,7 +1,7 @@
 # What is TCP/IP
 **TCP/IP** stands for **Transmission Control Protocol/Internet Protocol**. It's not a single entity, but rather a **suite of communication protocols** that define how data is transmitted across computer networks, including the internet. It acts like a **common language** for devices, allowing them to understand and communicate with each other regardless of their specific make or model.
 
-## key aspects of TCP/IP:
+## Key aspects of TCP/IP:
 ### 1. Foundation of the internet:
 It forms the very basis of internet communication, establishing standardized rules that devices follow to connect and exchange information efficiently.
 ### 2. Suite of protocols:
