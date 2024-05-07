@@ -1,18 +1,24 @@
 ### S 3 Class Example:
 
 ```r
-# Define an S3 class
-circle <- list(
-  radius = 0,
-  area = function(x) pi * x$radius^2
-)
+# Define a function to create Person objects
+create_person <- function(name, age) {
+  person <- list(name = name, age = age)
+  class(person) <- "Person"
+  return(person)
+}
 
-# Create an object of S3 class
-my_circle <- circle
-my_circle$radius <- 5
+# Define a method for printing Person objects
+print.Person <- function(x) {
+  cat("Person:", x$name, "\n")
+  cat("Age:", x$age, "\n")
+}
 
-# Access object's attributes and methods
-print(my_circle$area())  # Output: 78.53982
+# Create a Person object
+john <- create_person("John", 30)
+
+# Print the Person object
+print(john)
 ```
 
 ### S 4 Class Example:
