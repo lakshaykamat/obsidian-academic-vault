@@ -2,7 +2,7 @@
 
 ### Definition
 
-A vector in R is a fundamental data structure that represents an ordered collection of elements of the same data type. Vectors are one-dimensional and can store numerical values, character strings, or logical values.
+A vector in R is a fundamental data structure that represents an ==ordered collection of elements of the same data type.== Vectors are ==one-dimensional and can store numerical values, character strings, or logical values.==
 
 ### Creating Vectors
 

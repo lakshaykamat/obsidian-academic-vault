@@ -2,7 +2,7 @@
 
 ### Definition
 
-A list is a compound data structure in R that can store elements of different types, such as vectors, matrices, data frames, and other lists. It provides a way to organize and structure heterogeneous data.
+==A list is a compound data structure in R that can store elements of different types, such as vectors, matrices, data frames, and other lists.== It provides a way to organize and structure heterogeneous data.
 
 ### Creating Lists
 

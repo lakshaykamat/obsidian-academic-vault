@@ -1,5 +1,5 @@
 # Data Frame in R
-In R, a data frame is a two-dimensional data structure that stores tabular data in rows and columns, where each column can contain different data types. Data frames are a versatile and widely used structure for handling and analyzing datasets. Here's a detailed explanation of data frames in R using markdown features:
+In R, a data frame is a ==two-dimensional data structure that stores tabular data in rows and columns, where each column can contain different data types.== Data frames are a versatile and widely used structure for handling and analyzing datasets. Here's a detailed explanation of data frames in R using markdown features:
 
 ## Data Frames in R
 

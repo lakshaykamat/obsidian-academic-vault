@@ -1,7 +1,7 @@
 # Array in R
 ### Definition
 
-An array in R is a multidimensional data structure that extends the concept of vectors. It can store elements of the same data type in two or more dimensions. Arrays are particularly useful for representing tables, matrices, and data with multiple dimensions.
+An array in R is a ==multidimensional data structure== that extends the concept of vectors. It can store elements of the ==same data type== in two or more dimensions. Arrays are particularly useful for representing tables, matrices, and data with multiple dimensions.
 
 ### Creating Arrays
 

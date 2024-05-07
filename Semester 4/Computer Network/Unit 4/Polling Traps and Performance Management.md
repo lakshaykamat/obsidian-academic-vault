@@ -2,7 +2,7 @@
 Imagine a ==police officer== on patrol regularly checking different streets in a neighborhood. In network management, polling is similar. It's a proactive approach where a network management system (NMS) ==**periodically queries** network devices (routers, switches, firewalls) to gather information about their status and performance.==
 ## How it works
 The NMS sends out requests to network devices at specific intervals. These requests ask for data on various metrics, such as CPU usage, memory utilization, interface errors, or packet loss.
-## Benefits 
+## Benefits
 - Provides a **structured and consistent** way to collect network data.
 - Allows for **baseline comparisons** to identify deviations or trends that might indicate potential issues.
 - **Simpler** to implement compared to traps.

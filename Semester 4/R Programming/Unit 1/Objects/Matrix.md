@@ -1,7 +1,7 @@
 # Matrix in R
 ### Definition
 
-A matrix in R is a two-dimensional data structure with rows and columns. It is created by combining elements of the same data type into a rectangular arrangement. Matrices are particularly useful for representing and performing operations on numeric data.
+A matrix in R is a ==two-dimensional data structure with rows and columns.== It is created by combining elements of the same data type into a rectangular arrangement. Matrices are particularly useful for representing and performing operations on numeric data.
 
 ### Creating Matrices
 

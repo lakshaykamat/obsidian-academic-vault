@@ -1,5 +1,5 @@
 # Functions in R
-Functions are blocks of code that perform a specific task or computation. They can be broadly categorized into two types: user-defined functions and built-in functions.
+Functions are ==blocks of code that perform a specific task or computation.== They can be broadly categorized into two types: user-defined functions and built-in functions.
 
 ## 1. User-Defined Functions:
 - **Definition:** Created by the user to perform a specific task or set of tasks.
