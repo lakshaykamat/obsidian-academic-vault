@@ -21,16 +21,6 @@ public class MultithreadingExample {
         // Start threads
         thread1.start();
         thread2.start();
-        
-        // Wait for threads to finish
-        try {
-            thread1.join();
-            thread2.join();
-        } catch (InterruptedException e) {
-            System.out.println("Main thread interrupted.");
-        }
-        
-        System.out.println("Main thread exiting.");
     }
 }
 
