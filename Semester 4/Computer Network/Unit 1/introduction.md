@@ -1,11 +1,11 @@
 # Networking Introduction 
 ## What is a Computer Network?
-A computer network is a group of computers connected with each other through wires, optical fibers, or optical links, enabling various devices to interact with each other through a network. The primary goal of a computer network is to facilitate the sharing of resources among various devices. In computer network technology, there are several types of networks that range from simple to complex.
+A computer network is a ==group of computers connected with each other through wires, optical fibers, or optical links, enabling various devices to interact with each other through a network.== The primary goal of a computer network is to ===facilitate the sharing of resources among various devices.=== In computer network technology, there are several types of networks that range from simple to complex.
 
 ### Components of Computer Network:
 
 #### 1. NIC (Network Interface Card):
-   - A device that enables computers to communicate with each other. NIC contains hardware addresses, used by the data-link layer protocol to identify systems on the network and transfer data to the correct destination.
+   - A device that enables computers to communicate with each other. NIC ==contains hardware addresses==, used by the data-link layer protocol to ==identify systems on the network== and transfer data to the correct destination.
    - Two types of NIC: Wireless NIC (using radio wave technology with an antenna) and Wired NIC (using cables for data transfer).
 
 #### 2. Hub:

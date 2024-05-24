@@ -1,5 +1,8 @@
 ## Transport Layer
-The transport layer is the fourth layer of the OSI (Open Systems Interconnection) model, responsible for end-to-end communication and ensuring reliable, error-free data transfer between applications on different devices. It manages data segmentation, flow control, error detection, and retransmission, providing a dependable connection for higher-layer protocols.
+1. Data Segmentation
+2. Flow control
+3. Error Detection
+The transport layer is the fourth layer of the OSI (Open Systems Interconnection) model, responsible for end-to-end communication and ==ensuring reliable, error-free data transfer between applications on different devices.== It manages data segmentation, flow control, error detection, and retransmission, providing a dependable connection for higher-layer protocols.
 
 ### Functions of transport layer
 1. Segments and reassembles data for efficient transmission.

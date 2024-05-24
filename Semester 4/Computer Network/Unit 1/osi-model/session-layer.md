@@ -1,5 +1,8 @@
 ## Session Layer
-The session layer is the fifth layer of the OSI (Open Systems Interconnection) model, responsible for establishing, maintaining, and terminating communication sessions between applications on different devices. It ensures coordination and synchronization between applications, allowing them to start, manage, and end conversations or sessions.
+1. Session Management
+2. Authentication
+3. Authorization
+The session layer is the fifth layer of the OSI (Open Systems Interconnection) model, ==responsible for establishing, maintaining, and terminating communication sessions between applications on different devices.== It ensures coordination and synchronization between applications, allowing them to start, manage, and end conversations or sessions.
 
 ### Functions of session layer
 1. Establishes, maintains, and terminates communication sessions between applications.

@@ -1,5 +1,5 @@
 ## Application Layer
-The application layer is the seventh and topmost layer of the OSI (Open Systems Interconnection) model, serving as the interface between the network and the end-user applications. It enables communication between software applications on different devices and provides network services directly to the user.
+The application layer is the seventh and topmost layer of the OSI (Open Systems Interconnection) model, serving as the ==interface between the network and the end-user applications.==It enables communication between software applications on different devices and provides network services directly to the user.
 
 ### Function of Application Layer
 1. Provides network services directly to user applications.

@@ -1,5 +1,5 @@
 # What is OSI Model
-The OSI Model is like a set of rules that helps computers talk to each other in a standardized way. It's organized into seven layers, each handling specific tasks, making sure communication between different devices works smoothly.
+The OSI Model is like a ==set of rules that helps computers talk to each other in a standardized way.== It's organized into seven layers, each handling specific tasks, making sure communication between different devices works smoothly.
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20210220204638/cn1.png)
 
 ## 7 Layers

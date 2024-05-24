@@ -1,5 +1,5 @@
 ## 1. Class of Service (CoS):
-CoS is a network traffic prioritization mechanism. Imagine a highway with different lanes for cars, trucks, and emergency vehicles. CoS categorizes network traffic into classes based on its importance. This allows for prioritizing critical traffic for smoother and more predictable delivery.
+CoS is a network traffic prioritization mechanism. Imagine a highway with different lanes for cars, trucks, and emergency vehicles. ==CoS categorizes network traffic into classes based on its importance. This allows for prioritizing critical traffic for smoother and more predictable delivery.==
 ### Working
 Network devices like routers and switches can be configured to identify different traffic classes (e.g., voice calls, video conferencing, email). By assigning priorities to these classes, the network can ensure that high-priority traffic experiences minimal delays or congestion compared to lower-priority traffic.
 ### Benefit

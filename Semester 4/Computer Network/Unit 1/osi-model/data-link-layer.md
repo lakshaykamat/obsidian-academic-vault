@@ -1,4 +1,5 @@
 ## Data Link Layer
+1. Physical Addressing
 The data link layer is the second layer of the OSI (Open Systems Interconnection) model, responsible for reliable point-to-point and point-to-multipoint communication between devices on the same network. It ensures error-free data transmission, organizes bits into frames, performs error detection, and manages access to the physical medium through techniques like MAC (Media Access Control) addressing.
 
 ### Functions of data link layer

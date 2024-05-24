@@ -1,5 +1,8 @@
 ## Presentation Layer
-The presentation layer is the sixth layer of the OSI (Open Systems Interconnection) model, focused on translating, encrypting, and formatting data to ensure that information exchanged between applications on different devices is understood and can be properly interpreted. It deals with the syntax and semantics of data, providing a common language for diverse systems.
+1. Translation
+2. Compression
+3. Encryption/Decryption
+The presentation layer is the sixth layer of the OSI (Open Systems Interconnection) model, ==focused on translating, encrypting, and formatting data to ensure that information exchanged between applications on different devices is understood and can be properly interpreted.== It deals with the syntax and semantics of data, providing a common language for diverse systems.
 
 ### Functions of Presentation layer
 1. Translates data between different systems for compatibility.

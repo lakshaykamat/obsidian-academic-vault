@@ -1,5 +1,8 @@
 ## Network Layer
-The network layer is the third layer of the OSI (Open Systems Interconnection) model, and its primary role is to facilitate communication and data transfer between devices on different networks. It is responsible for logical addressing, routing, and forwarding packets from the source device to the destination device across multiple networks.
+1. Logical addressing
+2. Routing
+3. Path determination
+The network layer is the third layer of the OSI (Open Systems Interconnection) model, and its primary role is to facilitate communication and data transfer between devices on different networks. It is responsible for ==logical addressing, routing, and forwarding packets from the source device to the destination device across multiple networks.==
 
 ### Functions of network layer
 1. Assigns logical addresses (e.g., IP addresses) to devices for identification.

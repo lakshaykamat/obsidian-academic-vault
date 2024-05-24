@@ -30,12 +30,12 @@ In a star topology, all devices on the network are connected to a central hub or
    - Many local area networks (LANs) are implemented using star topology.
    - Ethernet networks with a central switch are a common example.
 
-**Advantages:**
+## Advantages :
    - Easy to install and manage.
    - Fault isolation – issues with one device do not affect others.
    - Scalable – new devices can be added without affecting the existing network.
 
-**Disadvantages:**
+## Disadvantages :
    - Dependence on the central hub – if the hub fails, the entire network can be affected.
    - Cost – the central hub and cabling can be more expensive compared to other topologies.
    - Limited performance – the overall performance can be impacted if the central hub has limited capacity.
