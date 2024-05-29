@@ -1,6 +1,6 @@
 # Informed Searching in State Space
 
-Informed searching, also known as heuristic searching, is a category of state space search algorithms in artificial intelligence that leverages domain-specific knowledge to guide the exploration of potential problem solutions. Unlike uninformed searching, informed searching incorporates heuristics to prioritize paths that are more likely to lead to optimal solutions.
+Informed searching, also known as heuristic searching, is a category of state space search algorithms in artificial intelligence that ==leverages domain-specific knowledge to guide the exploration of potential problem solutions==. Unlike uninformed searching, informed searching incorporates heuristics to prioritize paths that are more likely to lead to optimal solutions.
 
 ## Characteristics:
 

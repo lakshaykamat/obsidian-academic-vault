@@ -23,3 +23,10 @@ Here's a breakdown of key aspects of knowledge representation in AI:
 - **Choosing the right representation:** Different approaches have their strengths and weaknesses, making it crucial to select the most suitable representation for the specific task and domain.
 - **Knowledge acquisition:** Gathering and structuring the vast amount of knowledge needed for AI systems can be a complex and time-consuming process.
 - **Maintaining consistency and reasoning complexity:** Ensuring the consistency of knowledge within the system and managing the complexity of reasoning tasks can be challenging.
+
+## Issues
+- **Choosing the Right Structure:** Imagine a giant knowledge base. How do you efficiently access the relevant parts when needed? This involves selecting an appropriate structure to represent information, filling in details from situations, and potentially adapting the structure as needed.
+- **Scalability:** As the amount and complexity of knowledge grow, representing and processing it efficiently becomes a hurdle. Techniques like distributed computing and sophisticated knowledge base structures are needed to handle large-scale KR.
+- **Incomplete and Uncertain Information:** Real-world information is often incomplete or uncertain. KR systems need to grapple with representing these uncertainties and reasoning effectively despite the lack of complete data. Techniques like probabilistic reasoning and fuzzy logic can help address this issue.
+- **Granularity:** Finding the right level of detail to represent knowledge is important. Too much detail can be cumbersome, while too little might limit reasoning capabilities. KR systems need to strike a balance between comprehensiveness and efficiency. 
+- **Integrating Learning:** Ideally, AI systems should be able to learn and update their knowledge base. KR systems need to be designed to integrate seamlessly with learning algorithms, allowing them to continuously improve their knowledge representation.
