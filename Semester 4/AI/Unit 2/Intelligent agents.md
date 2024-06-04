@@ -43,4 +43,5 @@ An agent in AI is any entity capable of perceiving its environment and taking ac
    - Operates with a utility function to evaluate actions.
    - Handles both positive and negative states, aiming to achieve the most desirable outcome.
 
-   ![[Pasted image 20240518114516.png]]
+
+   ![[Pasted image 20240529171801.png]]

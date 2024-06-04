@@ -64,4 +64,3 @@
 | Integration       | Limited integration with non-statistical tools | Versatile integration with different tools     |
 | Popularity        | Widely used in academia for research           | Widely used in web development and industry    |
 | Flexibility       | Specialized for statistical tasks              | General-purpose, adaptable to diverse projects |
-

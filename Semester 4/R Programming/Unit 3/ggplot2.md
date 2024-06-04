@@ -19,7 +19,7 @@ Here's a simplified example of creating a scatter plot with ggplot2:
 
 Code snippet
 
-```
+```R
 library(ggplot2)
 
 # Sample data

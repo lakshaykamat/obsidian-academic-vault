@@ -5,7 +5,6 @@
 A factor in R is a ==categorical variable that represents a finite set of unique values, known as levels.== Factors are useful for representing and analyzing data with distinct categories or groups.
 
 ### Creating Factors
-
 Factors can be created using the `factor()` function, specifying the levels and optionally, the ordering of levels:
 
 ```R
