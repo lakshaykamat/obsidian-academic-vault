@@ -12,4 +12,4 @@ What is R, History of R, Installing R, Package installation, choosing IDE, first
 7. [[Functions|Functions in R]]
 8. [[Vectors|Vectors in R]]
 9. [[Matrix|Matrix in R]]
-10. [[Array|Array in R]]
+10. [[Academics/Semester 4/R Programming/Unit 1/Objects/Array|Array in R]]

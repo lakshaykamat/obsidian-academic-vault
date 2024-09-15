@@ -1,12 +1,12 @@
 # Topologies
 Network topology refers to the layout or arrangement of the different elements (links, nodes, etc.) of a computer network. There are several types of network topologies, each with its own advantages and disadvantages. Here are some common network topologies:
 
-1. [[bus-topologies|Bus Topology:]]
+1. [[Academics/Semester 4/Computer Network/Unit 1/topologies/bus-topologies|Bus Topology:]]
    - All devices share a common communication medium (a single cable).
    - Devices are connected to the bus cable using connectors or taps.
    - Cost-effective but can suffer from performance issues as more devices are added.
 
-2. [[star-topologies|Star Topology:]]
+2. [[Academics/Semester 4/Computer Network/Unit 1/topologies/star-topologies|Star Topology:]]
    - All devices are connected to a central hub or switch.
    - Hub or switch acts as a repeater for data flow.
    - Easy to install and manage, and if one connection fails, it doesn't affect the others.
@@ -16,12 +16,12 @@ Network topology refers to the layout or arrangement of the different elements (
    - Data travels in one direction, passing through each device until it reaches its destination.
    - Reliability is high, but if one device or connection fails, the entire network can be affected.
 
-4. [[mesh-topologies|Mesh Topology:]]
+4. [[Academics/Semester 4/Computer Network/Unit 1/topologies/mesh-topologies|Mesh Topology:]]
    - Every device is connected to every other device in the network.
    - High redundancy and reliability, but expensive and complex to set up and manage.
    - Provides multiple paths for data to travel, reducing the risk of network failure.
 
-5. [[tree-topologies|Tree Topology:]]
+5. [[Academics/Semester 4/Computer Network/Unit 1/topologies/tree-topologies|Tree Topology:]]
    - A combination of star and bus topologies.
    - Groups of star-configured networks are connected to a linear bus backbone.
    - Scalable and can cover large areas, but the failure of the central hub can disrupt the entire network.

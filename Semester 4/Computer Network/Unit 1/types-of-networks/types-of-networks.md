@@ -1,17 +1,17 @@
 # Types of networks
 There are several types of networks, each designed to serve specific purposes and accommodate different scales of communication. Here are some common types of networks:
 
-#### [[local-area-network|1. Local Area Network (LAN):]]
+#### [[Academics/Semester 4/Computer Network/Unit 1/types-of-networks/local-area-network|1. Local Area Network (LAN):]]
    - **Scope:** Limited geographic area (e.g., a single building, office, or campus).
    - **Purpose:** Enables devices within the same location to communicate and share resources efficiently.
    - **Characteristics:** High data transfer rates, low latency.
 
-#### [[wide-area-network|2. Wide Area Network (WAN):]]
+#### [[Academics/Semester 4/Computer Network/Unit 1/types-of-networks/wide-area-network|2. Wide Area Network (WAN):]]
    - **Scope:** Extends over a large geographic area, potentially spanning cities, countries, or continents.
    - **Purpose:** Connects multiple LANs, facilitating long-distance communication.
    - **Characteristics:** Lower data transfer rates compared to LANs, higher latency.
 
-### [[metropolitan-area-network|3. Metropolitan Area Network (MAN):]]
+### [[Academics/Semester 4/Computer Network/Unit 1/types-of-networks/metropolitan-area-network|3. Metropolitan Area Network (MAN):]]
    - **Scope:** Covers a larger geographic area than a LAN but is smaller than a WAN (e.g., a city).
    - **Purpose:** Connects multiple LANs within a city for efficient data exchange.
    - **Characteristics:** Intermediate data transfer rates and latency.
