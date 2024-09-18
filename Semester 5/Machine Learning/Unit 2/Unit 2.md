@@ -1,0 +1,1 @@
+**SUPERVISED LEARNING:** Nearest-Neighbours, Decision Trees, Naïve Bayes, Linear Classification, univariate linear regression, multivariate linear regression, regularized regression, Logistic regression, Support Vector Machines, Nonlinearity and Kernel Methods.
