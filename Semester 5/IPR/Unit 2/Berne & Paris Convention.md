@@ -1,16 +1,16 @@
-### **Berne Convention for the Protection of Literary and Artistic Works**
+# Berne Convention for the Protection of Literary and Artistic Works
 
 The **Berne Convention** is one of the most important international agreements related to **copyright protection**. It was adopted in 1886 and has been revised several times, with the most recent being in 1979. The convention ensures that creators such as authors, musicians, and filmmakers receive legal protection for their works internationally, without needing to register them in each country.
 
-#### **Key Features of the Berne Convention:**
+## Key Features of the Berne Convention:
 
-1. **Automatic Protection**:  
+### 1 . Automatic Protection: 
    Works are automatically protected in all member countries as soon as they are created. No need for formal registration or publication to claim copyright.
 
-2. **National Treatment**:  
+### 2 . National Treatment: 
    The principle of "national treatment" means that a work originating in one member country will receive the same copyright protection in another member country as the local works of that country.
 
-3. **Minimum Standards of Protection**:  
+### 3 . Minimum Standards of Protection:  
    The Berne Convention establishes minimum standards of protection that member countries must adhere to, including:
    - **Duration of Protection**: Copyright protection lasts for the life of the author plus an additional 50 years (many countries, including the EU and the U.S., extend this to 70 years).
    - **Moral Rights**: Authors have the right to claim authorship and object to derogatory treatment of their works, even after the transfer of economic rights.
@@ -35,11 +35,11 @@ The Berne Convention significantly simplified the process for creators to secure
 
 ---
 
-### **Paris Convention for the Protection of Industrial Property**
+# Paris Convention for the Protection of Industrial Property
 
 The **Paris Convention**, adopted in 1883, is the first major international treaty aimed at protecting **industrial property**, which includes patents, trademarks, industrial designs, and geographical indications. It was a key step in creating a standardized system for intellectual property protection across borders.
 
-#### **Key Features of the Paris Convention:**
+## Key Features of the Paris Convention:
 
 1. **National Treatment**:  
    Similar to the Berne Convention, the Paris Convention also operates on the principle of **national treatment**. An inventor or trademark holder from one member country is entitled to the same protection in another member country as a local inventor or trademark holder.

@@ -1,24 +1,24 @@
 The **World Intellectual Property Organization (WIPO)**, **World Trade Organization (WTO)**, **General Agreement on Tariffs and Trade (GATT)**, and **Trade-Related Aspects of Intellectual Property Rights (TRIPS)** are significant entities and agreements in the realm of international trade and intellectual property. Here’s a detailed look at each of them, including their roles and interconnections:
 
-### **1. World Intellectual Property Organization (WIPO)**
+### 1. World Intellectual Property Organization (WIPO)
 
-#### **Overview**:
+#### Overview:
 - **Established**: 1967
 - **Headquarters**: Geneva, Switzerland
 - **Purpose**: WIPO is a specialized agency of the United Nations that promotes the protection of intellectual property (IP) worldwide through cooperation among countries and in collaboration with international organizations.
 
-#### **Key Functions**:
+#### Key Functions:
 - **International Treaties**: Administers various international treaties, including the Berne Convention and the Paris Convention, that establish norms for IP protection.
 - **Global IP Services**: Offers services such as the Patent Cooperation Treaty (PCT), which facilitates the filing of international patent applications.
 - **Capacity Building**: Provides technical assistance and training to member states to develop and improve their IP systems.
 - **Policy Development**: Engages in policy discussions and research to address emerging issues in the field of IP.
 
-#### **Significance**:
+#### Significance:
 WIPO plays a crucial role in harmonizing IP laws across countries, promoting innovation and creativity, and ensuring that IP rights are respected globally.
 
 ---
 
-### **2. World Trade Organization (WTO)**
+### 2. World Trade Organization (WTO)
 
 #### **Overview**:
 - **Established**: 1995
