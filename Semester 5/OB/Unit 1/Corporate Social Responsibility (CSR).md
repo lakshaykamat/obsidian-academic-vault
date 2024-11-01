@@ -1,4 +1,4 @@
-### **Corporate Social Responsibility (CSR)**
+# **Corporate Social Responsibility (CSR)**
 
 **Corporate Social Responsibility (CSR)** refers to a company’s commitment to operate in an ethical and sustainable manner by considering its impact on society, the environment, and the economy. It involves going beyond profit-making to contribute positively to societal goals, such as improving the quality of life for employees, communities, and society at large, while minimizing the environmental footprint.
 

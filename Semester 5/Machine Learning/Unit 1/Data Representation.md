@@ -3,7 +3,7 @@
 Data representation is the foundation of machine learning, as it helps us understand and extract patterns from the raw information collected. Data can represent people, things, events, or ideas and may be categorical, numerical, or text-based. Let’s dive into the key methods of representing data and how they can provide insights, especially in the context of machine learning.
 
 ## What is Data Representation?
-Data representation refers to the organization and presentation of data to reveal meaningful patterns and trends. This can be achieved through **tabular** forms, **numerical** summaries, or **graphical** visualizations. Data representation serves as a bridge between data collection and data analysis, allowing us to condense, organize, and interpret information in a comprehensible way.
+Data representation refers to the __organization and presentation of data to reveal meaningful patterns and trends.__ This can be achieved through **tabular** forms, **numerical** summaries, or **graphical** visualizations. Data representation serves as a bridge between data collection and data analysis, allowing us to condense, organize, and interpret information in a comprehensible way.
 
 ---
 
@@ -96,14 +96,14 @@ Some key types of graphical data representation in machine learning include:
    - **Example**: Visualizing the proportion of each class in a classification dataset (e.g., percentage of classes like spam vs. non-spam emails).
 ### Summary Table of When to Use Each Graph
 
-| Graph Type         | Best Used For                                                  | Example in ML                                              |
-|--------------------|-----------------------------------------------------------------|------------------------------------------------------------|
-| Line Graph         | Tracking trends or changes over time                            | Model accuracy over epochs                                 |
-| Bar Graph          | Comparing discrete categories or summary statistics             | Performance of different models or feature importance      |
-| Histogram          | Frequency distribution of continuous data                       | Distribution of prediction errors or feature values        |
-| Line Plot          | Frequency count of specific values                              | Occurrence count of certain feature values                 |
-| Box & Whisker Plot | Summarizing spread, identifying outliers                        | Spread of prediction errors, feature distribution by class |
-| Pie Chart          | Proportions within a single categorical variable                | Class distribution in a dataset                            |
+| Graph Type         | Best Used For                                       | Example in ML                                              |
+| ------------------ | --------------------------------------------------- | ---------------------------------------------------------- |
+| Line Graph         | Tracking trends or changes over time                | Model accuracy over epochs                                 |
+| Bar Graph          | Comparing discrete categories or summary statistics | Performance of different models or feature importance      |
+| Histogram          | Frequency distribution of continuous data           | Distribution of prediction errors or feature values        |
+| Line Plot          | Frequency count of specific values                  | Occurrence count of certain feature values                 |
+| Box & Whisker Plot | Summarizing spread, identifying outliers            | Spread of prediction errors, feature distribution by class |
+| Pie Chart          | Proportions within a single categorical variable    | Class distribution in a dataset                            |
 
 ---
 

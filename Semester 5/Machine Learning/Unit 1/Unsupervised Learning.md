@@ -1,6 +1,6 @@
 ## What is Unsupervised Learning?
 
-Unsupervised learning deals with unlabeled data, meaning the dataset lacks output labels. The goal of unsupervised learning is to explore the underlying structure of the data and to organize it in a meaningful way. The model identifies patterns or groupings that might otherwise go unnoticed, which makes it particularly useful for exploratory data analysis.
+Unsupervised learning deals with unlabeled data, meaning the dataset lacks output labels. The goal of unsupervised learning is to explore the underlying structure of the data and to organize it in a meaningful way. The model ==identifies patterns or groupings== that might otherwise go unnoticed, which makes it particularly useful for exploratory data analysis.
 
 ### How Unsupervised Learning Works
 
